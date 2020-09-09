@@ -1,0 +1,171 @@
+html, head, body, span, a, div {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    background-image: url(images/veggies.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+nav {
+    padding-top: 30px;
+    margin-left: 50px;
+    float: right;
+    font-size: 20px;
+}
+#nav {
+    text-decoration: none;
+    float: left;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 95px;
+    color: white;
+}
+nav a {
+    margin: 0 auto;
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    right: 95px;
+    position: relative;
+    color: white;
+}
+hr {
+    clear: both; 
+    width: 90%;
+    background-color: black;
+    height: 2px;
+    display: flex;
+}
+ul li {
+    text-align: center;
+    color: white;
+    height: 70px;
+}
+ul li hr.side {
+    width: 500px;
+}
+ul li#freshest {
+    font-size: 100px;
+    padding-bottom: 70px;
+    font-weight: bold; 
+    font-family: Arial, Helvetica;
+}
+ul li#clean {
+    font-size: 80px;
+    padding-bottom: 50px;
+}
+ul#flex-container {
+    list-style-type: none;
+    height: 925px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+hr.side {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    display: flex;
+}
+.row {
+    display: block;
+    background-color: black;
+    position: relative;
+}
+.row h1 {
+    margin: 0 auto;
+    z-index: 3;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.row p {
+    margin: 0 auto;
+    font-weight: lighter;
+    z-index: 3;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    right: 25px;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+}
+.row2 {
+    padding-top: 0;
+    display: block;
+    background-color: black;
+    position: relative;
+    float: right;
+    background-color: #151515;
+}
+.row2 img{
+    float: right;
+}
+.row2 h1 {
+    margin: 0 auto;
+    z-index: 3;
+    position: absolute;
+    right: 40%;
+    left: 40px;
+    top: 40%;
+    color: white;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    clear: right;
+}
+.row2 p {
+    clear: right;
+    float: left;
+    margin: 0 auto;
+    font-weight: lighter;
+    z-index: 3;
+    position: absolute;
+    top: 55%;
+    left: 40px;
+    right: 40%;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+}
+.row3 {
+    display: inline-block;
+    background-color: black;
+    position: relative;
+    background-color: #252525;
+}
+.row3 h1 {
+    margin: 0 auto;
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.row3 p {
+    margin: 0 auto;
+    font-weight: lighter;
+    z-index: 3;
+    position: absolute;
+    top: 63%;
+    left: 40%;
+    right: 25px;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+}
+
